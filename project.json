@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "commands": {
+    "test": "Test"
+  },
+
+  "frameworks": {
+    "dnxcore50": {
+      "dependencies": {
+        "System.Console": "4.0.0-beta-23516",
+        "System.Runtime": "4.0.21-*",
+        "System.Net.NetworkInformation": "4.1.0-beta-*",
+        "Microsoft.NETCore.Platforms": "1.0.1-beta-*",
+        "System.Net.Security": "4.0.0-beta-*"
+      }
+    }
+  }
+}
